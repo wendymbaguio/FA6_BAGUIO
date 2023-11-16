@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>FA6</title>	
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			
+			body {
+				background-image: url("bgimage.jpg");
+				background-repeat: no-repeat;
+				background-size: 70%;
+				background-position: center;
+				background-attachment: fixed;
+			}
+			
+			a:link { 
+				color: #452527;
+				background-color: lightblue;
+				text-decoration: none
+			}
+			
+			a:visited {
+				color: #1a82c1;
+			}
+			
+			a:hover {
+				color: lightblue;
+				background-color: white;
+			}
+			
+			a:active {
+				color: #e04a51;
+			}
+			
+			a {
+				border: lightblue 2px solid;
+				padding: 0.3%;
+				background-color: lightblue;
+			}
+			
+			#div1 {
+				background-color: #f0f0f0;
+				margin: 20px;
+				width: 30%;
+				height: 50%;
+				padding: 10px;
+			}
+
+			#div1:target {
+				background-color: #e04a51;
+				font-weight: bold;
+				color: white;
+			}
+			
+			#div2 {
+				background-color: #f0f0f0;
+				padding: 10px;
+				margin: 20px;
+				width: 30%;
+			}
+			
+			#div2:target {
+				background-color: #f0f0f0;
+				border: 10px dotted green;
+			}
+			
+			#div3:target {
+				background-color: #f0f0f0;
+				padding: 10px;
+				margin: 20px;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+	
+		<a href="#div3">Revert back (☆▽☆)</a>	
+		<a href="#div1">Click this link (●ˇ∀ˇ●)</a>
+		<a href="#div2">Click this 2nd link ( >3<)</a>
+	
+		<div id="div1">Div 1 Content</div>
+		<div id="div2">Div 2 Content</div>
+
+	</body>
+</html>
